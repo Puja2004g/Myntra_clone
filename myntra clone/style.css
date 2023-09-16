@@ -1,0 +1,184 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.width{
+    width: 100%;
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.cursor{
+    cursor: pointer;
+}
+.container{
+    max-width: 95vw;
+    margin: auto;
+}
+nav{
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    padding: 19px;
+    font-weight: bolder;
+    font-size: 17px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.search{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 400px;
+    height: 15px;
+    padding: 13px;
+    border-radius: 10px;
+    border-color:lightgray;
+    font-size: medium;
+}
+
+.search:hover{
+    opacity: 0.7;
+}
+
+.profile, .wishlist, .bag{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 65px;
+    height: 60px;
+}
+
+.bag {
+    margin-left: 15px;
+    margin-top: 32px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.wishlist {
+    margin-left: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+section{
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+section img{
+    width: 95%;
+    height: auto;
+}
+
+.deals{
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(227, 115, 35);
+    background-image: linear-gradient(yellow, orange);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.splash{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(3, 3, 91);
+}
+
+.next{
+    margin: 0;
+    padding: 0;
+}
+.next img{
+    width: 100%;
+}
+
+.brand{
+    margin-bottom: 20px;
+}
+
+.width_1{
+    width: 95%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.four{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    font-size: small;
+    grid-gap: 50px;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.links h5{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.links ul li{
+    list-style: none;
+    opacity: 0.6;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.customer h5{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.customer ul li{
+    list-style: none;
+    opacity: 0.6;
+    margin: 10px;
+    margin-left: 0;
+    text-transform: capitalize;
+}
+
+.app h5{
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.app img{
+    width: 140px;
+}
+
+.return{
+    font-size: 18px;
+}
+.return img{
+    width: 330px;
+}
